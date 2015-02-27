@@ -9,7 +9,7 @@ miniWeb.config(function($routeProvider) {
 		.when('/about', {
 			templateUrl : 'pages/about.html',
 			controller  : 'aboutController'
-		});
+		})
 		.when('/contact', {
 			templateUrl : 'pages/contact.html',
 			controller  : 'contactContrller'
