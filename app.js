@@ -21,11 +21,11 @@ miniWeb.config(function($routeProvider) {
 
 miniWeb.controller('mainController', function($scope) {
 	$scope.message = "Dude, please stop looking at my site. Thanks.";
-	$scope.avatar = "images/avatar.jpg";
 });
 
 miniWeb.controller('aboutController', function($scope) {
 	$scope.message = "This page is a page about me for you.";
+	$scope.avatar = "images/avatar.jpg";
 });
 
 miniWeb.controller('contactController', function($scope) {
