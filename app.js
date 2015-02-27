@@ -1,0 +1,1 @@
+var miniWeb = angular.module('miniWeb', []);
