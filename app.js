@@ -24,5 +24,9 @@ miniWeb.controller('mainController', function($scope) {
 });
 
 miniWeb.controller('aboutController', function($scope) {
-	$score.message = "This page is a page about me for you.";
+	$scope.message = "This page is a page about me for you.";
+});
+
+miniWeb.controller('contactController', function($scope) {
+
 });
