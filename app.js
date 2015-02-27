@@ -28,5 +28,5 @@ miniWeb.controller('aboutController', function($scope) {
 });
 
 miniWeb.controller('contactController', function($scope) {
-
+	$scope.message = "Come on over sometime, have a beer! I\'ll make you a sandwich with cheese in it."
 });
