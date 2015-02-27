@@ -5,6 +5,10 @@ miniWeb.config(function($routeProvider) {
 		.when('/', {
 			templateUrl : 'pages/home.html',
 			controller  : 'mainController'
+		})
+		.when('/about', {
+			templateUrl : 'pages/about.html',
+			controller  : 'aboutController'
 		});
 });
 
